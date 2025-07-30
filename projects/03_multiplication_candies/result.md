@@ -1,185 +1,278 @@
-# ข้อ 5 
+# ข้อ 3
 # 1
 ```c
-I (15767) SHOPPING_MATH: 🧮 ขั้นตอนการคิด:
-I (15767) SHOPPING_MATH:    1. คำนวณราคาแต่ละสินค้า (การคูณ):
-I (15767) SHOPPING_MATH:       แอปเปิ้ล: 6 × 15 = 90 บาท
-I (15787) SHOPPING_MATH:       กล้วย: 12 × 8 = 96 บาท
-I (15787) SHOPPING_MATH:       ส้ม: 8 × 12 = 96 บาท
-I (15787) SHOPPING_MATH:       ขนมปัง: 2 × 20 = 40 บาท
-I (15787) SHOPPING_MATH: 
-I (15787) SHOPPING_MATH:    2. รวมราคาทั้งหมด (การบวก):
-I (15787) SHOPPING_MATH:       90 + 96 + 96 = 322 บาท
-I (15787) SHOPPING_MATH: 
-I (15787) SHOPPING_MATH:    3. หักส่วนลด (การลบ):
-I (15787) SHOPPING_MATH:       322 - 20 = 302 บาท
-I (15797) SHOPPING_MATH: 
-I (15797) SHOPPING_MATH:    4. แบ่งจ่าย (การหาร):
-I (15797) SHOPPING_MATH:       302 ÷ 3 = 100.67 บาท/คน
-I (15797) SHOPPING_MATH: 
-I (15797) SHOPPING_MATH: 🧾 ใบเสร็จรับเงิน:
-I (15797) SHOPPING_MATH:    ==========================================
-I (15797) SHOPPING_MATH:    🏪 ตลาดสดใหม่ 🏪
-I (15797) SHOPPING_MATH:    ==========================================
-I (15797) SHOPPING_MATH:    แอปเปิ้ล: 6 × 15 = 90 บาท
-I (15797) SHOPPING_MATH:    กล้วย: 12 × 8 = 96 บาท
-I (15797) SHOPPING_MATH:    ส้ม: 8 × 12 = 96 บาท
-I (15797) SHOPPING_MATH:    ขนมปัง: 2 × 20 = 40 บาท
-I (15807) SHOPPING_MATH:    ----------------------------------------
-I (15807) SHOPPING_MATH:    ยอดรวม:                    322 บาท
-I (15807) SHOPPING_MATH:    ส่วนลด:                     -20 บาท
-I (15807) SHOPPING_MATH:    ========================================
-I (15807) SHOPPING_MATH:    ยอดสุทธิ:                   302 บาท
-I (15807) SHOPPING_MATH:    แบ่งจ่าย 3 คน:              100.67 บาท/คน
-I (15807) SHOPPING_MATH:    ========================================
-I (15807) SHOPPING_MATH:    ขอบคุณที่ใช้บริการ 😊
-I (15807) SHOPPING_MATH: 
-I (15807) SHOPPING_MATH: 💡 ตัวอย่างเพิ่มเติม:
-I (15807) SHOPPING_MATH:    📝 ถ้าเพิ่มมะม่วง 4 ผล ผลละ 25 บาท:
-I (15807) SHOPPING_MATH:       มะม่วง: 4 × 25 = 100 บาท
-I (15807) SHOPPING_MATH:       ยอดรวมใหม่: 322 + 100 = 422 บาท
-I (15807) SHOPPING_MATH:       หักส่วนลด: 422 - 20 = 402 บาท
-I (15807) SHOPPING_MATH:       แบ่งจ่าย: 402 ÷ 3 = 134.00 บาท/คน
-I (15807) SHOPPING_MATH: 
-I (15807) SHOPPING_MATH:    🏷️ ถ้าใช้ส่วนลด 10% แทน:
-I (15807) SHOPPING_MATH:       ส่วนลด 10%: 322 × 0.10 = 32.20 บาท
-I (15817) SHOPPING_MATH:       ยอดสุทธิ: 322 - 32.20 = 289.80 บาท
-I (15817) SHOPPING_MATH:       แบ่งจ่าย: 289.80 ÷ 3 = 96.60 บาท/คน
-I (15817) SHOPPING_MATH:
-I (15817) SHOPPING_MATH: 🌟 การประยุกต์ใช้ในชีวิตจริง:
-I (15817) SHOPPING_MATH:    1. การซื้อของเป็นกลุ่ม - ต้องคำนวณค่าใช้จ่าย
-I (15817) SHOPPING_MATH:    2. การแบ่งบิลในร้านอาหาร
-I (15817) SHOPPING_MATH:    3. การคำนวณค่าใช้จ่ายท่องเที่ยว
-I (15817) SHOPPING_MATH:    4. การวางแผนงบประมาณ
-I (15817) SHOPPING_MATH:    5. การคิดราคาขายสินค้า
-I (15817) SHOPPING_MATH: 
-I (15817) SHOPPING_MATH: 🔍 วิเคราะห์การดำเนินการที่ใช้:
-I (15817) SHOPPING_MATH:    ✓ การคูณ (×): คำนวณราคาสินค้าแต่ละชนิด
-I (15817) SHOPPING_MATH:    ✓ การบวก (+): รวมราคาทั้งหมด
-I (15817) SHOPPING_MATH:    ✓ การลบ (-): หักส่วนลด
-I (15817) SHOPPING_MATH:    ✓ การหาร (÷): แบ่งจ่ายค่าใช้จ่าย
-I (15817) SHOPPING_MATH:    ➜ การรวมการดำเนินการทำให้แก้โจทย์ซับซ้อนได้!
-I (15817) SHOPPING_MATH:
-I (15827) SHOPPING_MATH: 📚 สิ่งที่เรียนรู้:
-I (15827) SHOPPING_MATH:    1. การใช้ struct เก็บข้อมูลที่เกี่ยวข้องกัน
-I (15827) SHOPPING_MATH:    2. การแบ่งปัญหาใหญ่เป็นปัญหาย่อยๆ
-I (15827) SHOPPING_MATH:    3. การรวมการดำเนินการทางคณิตศาสตร์
-I (15827) SHOPPING_MATH:    4. การสร้างฟังก์ชันเฉพาะงาน
-I (15827) SHOPPING_MATH:    5. การแสดงผลในรูปแบบที่เข้าใจง่าย
-I (15827) SHOPPING_MATH:    6. การประยุกต์ใช้ในชีวิตจริง
-I (15827) SHOPPING_MATH: 
-I (15827) SHOPPING_MATH: 🎉 จบโปรแกรมซื้อของที่ตลาด!
-I (15827) SHOPPING_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 06_advanced_math
-I (17827) main_task: Returned from app_main()
+I (15767) CANDIES_MATH: 🧮 ขั้นตอนการคิด:
+I (15767) CANDIES_MATH:    จำนวนถุง × ลูกอมต่อถุง
+I (15767) CANDIES_MATH:    = 7 × 8
+I (15767) CANDIES_MATH:    = 56 เม็ด
+I (15767) CANDIES_MATH: 
+I (15767) CANDIES_MATH: ✅ คำตอบ:
+I (15767) CANDIES_MATH:    มีลูกอมทั้งหมด 56 เม็ด
+I (15767) CANDIES_MATH:
+I (15767) CANDIES_MATH: 🎨 ภาพประกอบ:
+I (15767) CANDIES_MATH:    ถุงที่ 1: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15767) CANDIES_MATH:    ถุงที่ 2: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15767) CANDIES_MATH:    ถุงที่ 3: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15767) CANDIES_MATH:    ถุงที่ 4: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15767) CANDIES_MATH:    ถุงที่ 5: 🍬🍬🍬🍬🍬🍬🍬🍬(8 เม็ด)
+I (15767) CANDIES_MATH:    รวม:     56 เม็ด
+I (15767) CANDIES_MATH: 
+I (15767) CANDIES_MATH: 🔄 เปรียบเทียบกับการบวกซ้ำๆ:
+I (15767) CANDIES_MATH:    การคูณ: 7 × 8 = 56
+I (15767) CANDIES_MATH:    การบวกซ้ำๆ: 
+I (15767) CANDIES_MATH:                   8
+I (15767) CANDIES_MATH:                 + 8
+I (15767) CANDIES_MATH:                 + 8
+I (15767) CANDIES_MATH:                 + 8
+I (15767) CANDIES_MATH:                 + 8
+I (15767) CANDIES_MATH:                 + 8
+I (15767) CANDIES_MATH:                 + 8 = 56
+I (15777) CANDIES_MATH:    ผลลัพธ์เหมือนกัน! การคูณคือการบวกซ้ำๆ
+I (15777) CANDIES_MATH:
+I (15777) CANDIES_MATH: 📊 ตารางสูตรคูณ 8:
+I (15777) CANDIES_MATH:    1 × 8 = 8
+I (16077) CANDIES_MATH:    2 × 8 = 16
+I (16377) CANDIES_MATH:    3 × 8 = 24
+I (16677) CANDIES_MATH:    4 × 8 = 32
+I (16977) CANDIES_MATH:    5 × 8 = 40
+I (17277) CANDIES_MATH:    6 × 8 = 48
+I (17577) CANDIES_MATH:    7 × 8 = 56
+I (17877) CANDIES_MATH:    8 × 8 = 64
+I (18177) CANDIES_MATH:    9 × 8 = 72
+I (18477) CANDIES_MATH:    10 × 8 = 80
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH: 💡 ตัวอย่างเพิ่มเติม:
+I (18777) CANDIES_MATH:    ถ้ามีถุงลูกอม 3 ถุง ถุงละ 8 เม็ด
+I (18777) CANDIES_MATH:    จะได้ลูกอม 3 × 8 = 24 เม็ด
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH:    ถ้ามีถุงลูกอม 7 ถุง ถุงละ 4 เม็ด
+I (18777) CANDIES_MATH:    จะได้ลูกอม 7 × 4 = 28 เม็ด
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH: 🔄 เปรียบเทียบการดำเนินการ:
+I (18777) CANDIES_MATH:    การบวก (+): เพิ่มจำนวน (เช่น ไข่ 4 + 2 = 6)
+I (18777) CANDIES_MATH:    การลบ (-): ลดจำนวน (เช่น ของเล่น 8 - 3 = 5)
+I (18777) CANDIES_MATH:    การคูณ (×): บวกซ้ำๆ (เช่น ลูกอม 5 × 6 = 30)
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH: 🎓 แนวคิดขั้นสูง:
+I (18777) CANDIES_MATH:    1. การคูณมีคุณสมบัติการสับเปลี่ยน:
+I (18777) CANDIES_MATH:       7 × 8 = 8 × 7 = 56
+I (18777) CANDIES_MATH:    2. การคูณด้วย 0 จะได้ 0 เสมอ:
+I (18777) CANDIES_MATH:       7 × 0 = 0 (ไม่มีถุงลูกอม)
+I (18777) CANDIES_MATH:    3. การคูณด้วย 1 จะได้ตัวเลขเดิม:
+I (18777) CANDIES_MATH:       8 × 1 = 8 (มีถุงเดียว)
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH: 📚 สิ่งที่เรียนรู้:
+I (18777) CANDIES_MATH:    1. การคูณเลข (Multiplication): a × b = c
+I (18777) CANDIES_MATH:    2. การใช้ for loop สำหรับการทำซ้ำ
+I (18777) CANDIES_MATH:    3. ความสัมพันธ์ระหว่างการคูณและการบวกซ้ำๆ
+I (18777) CANDIES_MATH:    4. คุณสมบัติพิเศษของการคูณ
+I (18777) CANDIES_MATH:    5. การแสดงผลแบบตาราง
+I (18777) CANDIES_MATH:
+I (18777) CANDIES_MATH: 🎉 จบโปรแกรมนับลูกอมในถุง!
+I (18777) CANDIES_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 04_division_cookies
+I (20787) main_task: Returned from app_main()
 ```
 # 2
 ```c
-I (16665) SHOPPING_MATH: 🧮 ขั้นตอนการคิด:
-I (16665) SHOPPING_MATH:    1. คำนวณราคาแต่ละสินค้า (การคูณ):
-I (16665) SHOPPING_MATH:       แอปเปิ้ล: 6 × 15 = 90 บาท
-I (16675) SHOPPING_MATH:       กล้วย: 12 × 8 = 96 บาท
-I (16675) SHOPPING_MATH:       ส้ม: 8 × 12 = 96 บาท
-I (16675) SHOPPING_MATH:       ขนมปัง: 2 × 20 = 40 บาท
-I (16685) SHOPPING_MATH: 
-I (16685) SHOPPING_MATH:    2. รวมราคาทั้งหมด (การบวก):
-I (16685) SHOPPING_MATH:       90 + 96 + 96 = 322 บาท
-I (16685) SHOPPING_MATH: 
-I (16685) SHOPPING_MATH:    3. หักส่วนลด (การลบ):
-I (16685) SHOPPING_MATH:       322 - 10% (32.20 บาท) = 290 บาท
-I (16685) SHOPPING_MATH:    4. แบ่งจ่าย (การหาร):
-I (16685) SHOPPING_MATH:       290 ÷ 3 = 96.60 บาท/คน
-I (16685) SHOPPING_MATH: 
-I (16685) SHOPPING_MATH: 🧾 ใบเสร็จรับเงิน:
-I (16685) SHOPPING_MATH:    ==========================================
-I (16685) SHOPPING_MATH:    🏪 ตลาดสดใหม่ 🏪
-I (16685) SHOPPING_MATH:    ==========================================
-I (16685) SHOPPING_MATH:    แอปเปิ้ล: 6 × 15 = 90 บาท
-I (16685) SHOPPING_MATH:    กล้วย: 12 × 8 = 96 บาท
-I (16685) SHOPPING_MATH:    ส้ม: 8 × 12 = 96 บาท
-I (16685) SHOPPING_MATH:    ขนมปัง: 2 × 20 = 40 บาท
-I (16685) SHOPPING_MATH:    ----------------------------------------
-I (16685) SHOPPING_MATH:    ยอดรวม:                      322 บาท
-I (16685) SHOPPING_MATH:    มีส่วนลด:                      10%
-I (16695) SHOPPING_MATH:    ========================================
-I (16695) SHOPPING_MATH:    ยอดสุทธิ:                   290 บาท
-I (16695) SHOPPING_MATH:    แบ่งจ่าย 3 คน:              96.60 บาท/คน
-I (16695) SHOPPING_MATH:    ========================================
-I (16695) SHOPPING_MATH:    ขอบคุณที่ใช้บริการ 😊
-I (16695) SHOPPING_MATH:
-I (16695) SHOPPING_MATH: 💡 ตัวอย่างเพิ่มเติม:
-I (16695) SHOPPING_MATH:    📝 ถ้าเพิ่มมะม่วง 4 ผล ผลละ 25 บาท:
-I (16695) SHOPPING_MATH:       มะม่วง: 4 × 25 = 100 บาท
-I (16695) SHOPPING_MATH:       ยอดรวมใหม่: 322 + 100 = 422 บาท
-I (16695) SHOPPING_MATH:       หักส่วนลด: 422 - 32 = 390 บาท
-I (16705) SHOPPING_MATH:       แบ่งจ่าย: 390 ÷ 3 = 129.93 บาท/คน
-I (16705) SHOPPING_MATH: 
-I (16705) SHOPPING_MATH:    🏷️ ถ้าใช้ส่วนลด 10% แทน:
-I (16705) SHOPPING_MATH:       ส่วนลด 10%: 322 × 0.10 = 32.20 บาท
-I (16705) SHOPPING_MATH:       ยอดสุทธิ: 322 - 32.20 = 289.80 บาท
-I (16705) SHOPPING_MATH:       แบ่งจ่าย: 289.80 ÷ 3 = 96.60 บาท/คน
-I (16705) SHOPPING_MATH: 
-I (16705) SHOPPING_MATH: 🌟 การประยุกต์ใช้ในชีวิตจริง:
-I (16705) SHOPPING_MATH:    1. การซื้อของเป็นกลุ่ม - ต้องคำนวณค่าใช้จ่าย
-I (16705) SHOPPING_MATH:    2. การแบ่งบิลในร้านอาหาร
-I (16705) SHOPPING_MATH:    3. การคำนวณค่าใช้จ่ายท่องเที่ยว
-I (16705) SHOPPING_MATH:    4. การวางแผนงบประมาณ
-I (16705) SHOPPING_MATH:    5. การคิดราคาขายสินค้า
-I (16705) SHOPPING_MATH: 
-I (16705) SHOPPING_MATH: 🔍 วิเคราะห์การดำเนินการที่ใช้:
-I (16715) SHOPPING_MATH:    ✓ การคูณ (×): คำนวณราคาสินค้าแต่ละชนิด
-I (16715) SHOPPING_MATH:    ✓ การบวก (+): รวมราคาทั้งหมด
-I (16715) SHOPPING_MATH:    ✓ การลบ (-): หักส่วนลด
-I (16715) SHOPPING_MATH:    ✓ การหาร (÷): แบ่งจ่ายค่าใช้จ่าย
-I (16715) SHOPPING_MATH:    ➜ การรวมการดำเนินการทำให้แก้โจทย์ซับซ้อนได้!
-I (16715) SHOPPING_MATH:
-I (16715) SHOPPING_MATH: 📚 สิ่งที่เรียนรู้:
-I (16715) SHOPPING_MATH:    1. การใช้ struct เก็บข้อมูลที่เกี่ยวข้องกัน
-I (16715) SHOPPING_MATH:    2. การแบ่งปัญหาใหญ่เป็นปัญหาย่อยๆ
-I (16715) SHOPPING_MATH:    3. การรวมการดำเนินการทางคณิตศาสตร์
-I (16715) SHOPPING_MATH:    4. การสร้างฟังก์ชันเฉพาะงาน
-I (16725) SHOPPING_MATH:    5. การแสดงผลในรูปแบบที่เข้าใจง่าย
-I (16725) SHOPPING_MATH:    6. การประยุกต์ใช้ในชีวิตจริง
-I (16725) SHOPPING_MATH: 
-I (16725) SHOPPING_MATH: 🎉 จบโปรแกรมซื้อของที่ตลาด!
-I (16725) SHOPPING_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 06_advanced_math
-I (18725) main_task: Returned from app_main()
+I (16082) CANDIES_MATH: 🧮 ขั้นตอนการคิด:
+I (16082) CANDIES_MATH: มีลูกอม🍓สตรอเบอร์รี่ 3 ถุง แต่ละถุงมี 8 เม็ด
+I (16082) CANDIES_MATH: จะมีลูกอม🍓สตรอเบอร์รี่ทั้งหมด 3 × 8 = 24 เม็ด
+I (16082) CANDIES_MATH: มีลูกอม🍊ส้ม 2 ถุง แต่ละถุงมี 8 เม็ด
+I (16082) CANDIES_MATH: จะมีลูกอม🍊ส้มทั้งหมด 2 × 8 = 16 เม็ด
+I (16082) CANDIES_MATH: มีลูกอม🍇องุ่น 4 ถุง แต่ละถุงมี 8 เม็ด
+I (16082) CANDIES_MATH: จะมีลูกอม🍇องุ่นทั้งหมด 4 × 8 = 32 เม็ด
+I (16082) CANDIES_MATH: รวมลูกอม🍓🍊🍇ทั้งหมด 24 + 16 + 32 = 72 เม็ด
+I (16082) CANDIES_MATH: ✅ คำตอบ:
+I (16082) CANDIES_MATH:    มีลูกอมทั้งหมด 72 เม็ด
+I (16082) CANDIES_MATH: 
+I (16082) CANDIES_MATH: 🎨 ภาพประกอบ:
+I (16082) CANDIES_MATH:    ถุง🍓ที่ 1: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍓ที่ 2: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍓ที่ 3: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍊ที่ 4: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍊ที่ 5: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍇ที่ 6: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16082) CANDIES_MATH:    รวม:     72 เม็ด
+I (16092) CANDIES_MATH:
+I (16092) CANDIES_MATH: 💡 ตัวอย่างเพิ่มเติม:
+I (16092) CANDIES_MATH:    ถ้ามีถุงลูกอม 3 ถุง ถุงละ 8 เม็ด
+I (16092) CANDIES_MATH:    จะได้ลูกอม 3 × 8 = 24 เม็ด
+I (16092) CANDIES_MATH:
+I (16092) CANDIES_MATH:    ถ้ามีถุงลูกอม 7 ถุง ถุงละ 4 เม็ด
+I (16092) CANDIES_MATH:    จะได้ลูกอม 7 × 4 = 28 เม็ด
+I (16092) CANDIES_MATH: 
+I (16092) CANDIES_MATH: 🔄 เปรียบเทียบการดำเนินการ:
+I (16092) CANDIES_MATH:    การบวก (+): เพิ่มจำนวน (เช่น ไข่ 4 + 2 = 6)
+I (16092) CANDIES_MATH:    การลบ (-): ลดจำนวน (เช่น ของเล่น 8 - 3 = 5)
+I (16092) CANDIES_MATH:    การคูณ (×): บวกซ้ำๆ (เช่น ลูกอม 5 × 6 = 30)
+I (16092) CANDIES_MATH:
+I (16092) CANDIES_MATH: 🎓 แนวคิดขั้นสูง:
+I (16092) CANDIES_MATH:    1. การคูณมีคุณสมบัติการสับเปลี่ยน:
+I (16092) CANDIES_MATH:       9 × 8 = 8 × 9 = 72
+I (16092) CANDIES_MATH:    2. การคูณด้วย 0 จะได้ 0 เสมอ:
+I (16092) CANDIES_MATH:       9 × 0 = 0 (ไม่มีถุงลูกอม)
+I (16092) CANDIES_MATH:    3. การคูณด้วย 1 จะได้ตัวเลขเดิม:
+I (16092) CANDIES_MATH:       8 × 1 = 8 (มีถุงเดียว)
+I (16092) CANDIES_MATH: 
+I (16092) CANDIES_MATH: 📚 สิ่งที่เรียนรู้:
+I (16092) CANDIES_MATH:    1. การคูณเลข (Multiplication): a × b = c
+I (16092) CANDIES_MATH:    2. การใช้ for loop สำหรับการทำซ้ำ
+I (16092) CANDIES_MATH:    3. ความสัมพันธ์ระหว่างการคูณและการบวกซ้ำๆ
+I (16092) CANDIES_MATH:    4. คุณสมบัติพิเศษของการคูณ
+I (16092) CANDIES_MATH:    5. การแสดงผลแบบตาราง
+I (16092) CANDIES_MATH:
+I (16102) CANDIES_MATH: 🎉 จบโปรแกรมนับลูกอมในถุง!
+I (16102) CANDIES_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 04_division_cookies
+I (18102) main_task: Returned from app_main()
 ```
+
 # 3
 ```c
-I (16220) SHOPPING_MATH: 🧮 ขั้นตอนการคิด:
-I (16220) SHOPPING_MATH:    1. คำนวณราคาแต่ละสินค้า (การคูณ):
-I (16220) SHOPPING_MATH:    แอปเปิ้ล: 6 × 15 = 90 บาท
-I (16230) SHOPPING_MATH:    กล้วย: 12 × 8 = 96 บาท
-I (16230) SHOPPING_MATH:    ส้ม: 8 × 12 = 96 บาท
-I (16230) SHOPPING_MATH:    ขนมปัง: 2 × 20 = 40 บาท
-I (16230) SHOPPING_MATH: 
-I (16230) SHOPPING_MATH:    2. รวมราคาทั้งหมด (การบวก): 322 บาท
-I (16230) SHOPPING_MATH: 
-I (16230) SHOPPING_MATH:    3. หักส่วนลด (การลบ): 322 - 10% (32.20 บาท) = 289.80 บาท
-I (16230) SHOPPING_MATH:
-I (16230) SHOPPING_MATH:    4. คำนวณภาษี VAT (7%): 289.80 × 7% = 20.29 บาท
-I (16230) SHOPPING_MATH:    5. ยอดรวมหลัง VAT: 289.80 + 20.29 = 310.09 บาท
-I (16240) SHOPPING_MATH: 
-I (16240) SHOPPING_MATH:    6. แบ่งจ่าย (การหาร): 310.09 ÷ 3 = 103.36 บาท/คน
-I (16240) SHOPPING_MATH: 
-I (16240) SHOPPING_MATH: 🧾 ใบเสร็จรับเงิน:
-I (16240) SHOPPING_MATH:    ==========================================
-I (16240) SHOPPING_MATH:    🏪 ตลาดสดใหม่ 🏪
-I (16240) SHOPPING_MATH:    ==========================================
-I (16240) SHOPPING_MATH:    แอปเปิ้ล: 6 × 15 = 90 บาท
-I (16240) SHOPPING_MATH:    กล้วย: 12 × 8 = 96 บาท
-I (16240) SHOPPING_MATH:    ส้ม: 8 × 12 = 96 บาท
-I (16240) SHOPPING_MATH:    ขนมปัง: 2 × 20 = 40 บาท
-I (16240) SHOPPING_MATH:    ----------------------------------------
-I (16240) SHOPPING_MATH:    ยอดรวม:                    322.00 บาท
-I (16240) SHOPPING_MATH:    ส่วนลด:                   -32.20 บาท
-I (16240) SHOPPING_MATH:    ยอดก่อน VAT:               289.80 บาท
-I (16240) SHOPPING_MATH:    ภาษี 7%:                  +20.29 บาท
-I (16240) SHOPPING_MATH:    ========================================
-I (16240) SHOPPING_MATH:    ยอดสุทธิหลัง VAT:          310.09 บาท
-I (16240) SHOPPING_MATH:    แบ่งจ่าย 3 คน:             103.36 บาท/คน
-I (16240) SHOPPING_MATH:    ========================================
-I (16240) SHOPPING_MATH:    ขอบคุณที่ใช้บริการ 😊
-I (16240) SHOPPING_MATH:
-I (16240) SHOPPING_MATH: 🎉 จบโปรแกรมซื้อของที่ตลาด!
+I (15147) CANDIES_MATH: 🧮 ขั้นตอนการคิด:
+I (15147) CANDIES_MATH: มีลูกอม🍓สตรอเบอร์รี่ 3 ถุง แต่ละถุงมี 8 เม็ด
+I (15147) CANDIES_MATH: จะมีลูกอม🍓สตรอเบอร์รี่ทั้งหมด 3 × 8 = 24 เม็ด
+I (15147) CANDIES_MATH: มีลูกอม🍊ส้ม 2 ถุง แต่ละถุงมี 8 เม็ด
+I (15147) CANDIES_MATH: จะมีลูกอม🍊ส้มทั้งหมด 2 × 8 = 16 เม็ด
+I (15147) CANDIES_MATH: มีลูกอม🍇องุ่น 4 ถุง แต่ละถุงมี 8 เม็ด
+I (15147) CANDIES_MATH: จะมีลูกอม🍇องุ่นทั้งหมด 4 × 8 = 32 เม็ด
+I (15147) CANDIES_MATH: รวมลูกอม🍓🍊🍇ทั้งหมด 24 + 16 + 32 = 72 เม็ด
+I (15147) CANDIES_MATH: ✅ คำตอบ:
+I (15147) CANDIES_MATH:    มีลูกอมทั้งหมด 72 เม็ด
+I (15147) CANDIES_MATH: 
+I (15147) CANDIES_MATH: 🎨 ภาพประกอบ:
+I (15147) CANDIES_MATH:    ถุง🍓ที่ 1: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍓ที่ 2: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍓ที่ 3: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍊ที่ 4: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍊ที่ 5: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍇ที่ 6: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (15147) CANDIES_MATH:    รวม:     72 เม็ด
+I (15147) CANDIES_MATH: 
+I (15147) CANDIES_MATH: 📊 ตารางสูตรคูณของ 8:
+I (15147) CANDIES_MATH:    1 x 8 = 8
+I (15147) CANDIES_MATH:    2 x 8 = 16
+I (15147) CANDIES_MATH:    3 x 8 = 24
+I (15147) CANDIES_MATH:    4 x 8 = 32
+I (15147) CANDIES_MATH:    5 x 8 = 40
+I (15147) CANDIES_MATH:    6 x 8 = 48
+I (15147) CANDIES_MATH:    7 x 8 = 56
+I (15147) CANDIES_MATH:    8 x 8 = 64
+I (15147) CANDIES_MATH:    9 x 8 = 72
+I (15147) CANDIES_MATH:    10 x 8 = 80
+I (15157) CANDIES_MATH: 💡 ตัวอย่างเพิ่มเติม:
+I (15157) CANDIES_MATH:    ถ้ามีถุงลูกอม 3 ถุง ถุงละ 8 เม็ด
+I (15157) CANDIES_MATH:    จะได้ลูกอม 3 × 8 = 24 เม็ด
+I (15157) CANDIES_MATH: 
+I (15157) CANDIES_MATH:    ถ้ามีถุงลูกอม 7 ถุง ถุงละ 4 เม็ด
+I (15157) CANDIES_MATH:    จะได้ลูกอม 7 × 4 = 28 เม็ด
+I (15157) CANDIES_MATH: 
+I (15157) CANDIES_MATH: 🔄 เปรียบเทียบการดำเนินการ:
+I (15157) CANDIES_MATH:    การบวก (+): เพิ่มจำนวน (เช่น ไข่ 4 + 2 = 6)
+I (15157) CANDIES_MATH:    การลบ (-): ลดจำนวน (เช่น ของเล่น 8 - 3 = 5)
+I (15157) CANDIES_MATH:    การคูณ (×): บวกซ้ำๆ (เช่น ลูกอม 5 × 6 = 30)
+I (15157) CANDIES_MATH:
+I (15157) CANDIES_MATH: 🎓 แนวคิดขั้นสูง:
+I (15157) CANDIES_MATH:    1. การคูณมีคุณสมบัติการสับเปลี่ยน:
+I (15157) CANDIES_MATH:       9 × 8 = 8 × 9 = 72
+I (15157) CANDIES_MATH:    2. การคูณด้วย 0 จะได้ 0 เสมอ:
+I (15157) CANDIES_MATH:       9 × 0 = 0 (ไม่มีถุงลูกอม)
+I (15157) CANDIES_MATH:    3. การคูณด้วย 1 จะได้ตัวเลขเดิม:
+I (15157) CANDIES_MATH:       8 × 1 = 8 (มีถุงเดียว)
+I (15157) CANDIES_MATH:
+I (15157) CANDIES_MATH: 📚 สิ่งที่เรียนรู้:
+I (15157) CANDIES_MATH:    1. การคูณเลข (Multiplication): a × b = c
+I (15157) CANDIES_MATH:    2. การใช้ for loop สำหรับการทำซ้ำ
+I (15157) CANDIES_MATH:    3. ความสัมพันธ์ระหว่างการคูณและการบวกซ้ำๆ
+I (15157) CANDIES_MATH:    4. คุณสมบัติพิเศษของการคูณ
+I (15157) CANDIES_MATH:    5. การแสดงผลแบบตาราง
+I (15157) CANDIES_MATH: 
+I (15157) CANDIES_MATH: 🎉 จบโปรแกรมนับลูกอมในถุง!
+I (15157) CANDIES_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 04_division_cookies
+I (17157) main_task: Returned from app_main()
+```
+# 4
+```C
+I (16778) CANDIES_MATH: 🧮 ขั้นตอนการคิด:
+I (16778) CANDIES_MATH: มีลูกอม🍓สตรอเบอร์รี่ 3 ถุง แต่ละถุงมี 8 เม็ด
+I (16778) CANDIES_MATH: จะมีลูกอม🍓สตรอเบอร์รี่ทั้งหมด 3 × 8 = 24 เม็ด
+I (16778) CANDIES_MATH: มีลูกอม🍊ส้ม 2 ถุง แต่ละถุงมี 8 เม็ด
+I (16778) CANDIES_MATH: จะมีลูกอม🍊ส้มทั้งหมด 2 × 8 = 16 เม็ด
+I (16778) CANDIES_MATH: มีลูกอม🍇องุ่น 4 ถุง แต่ละถุงมี 8 เม็ด
+I (16778) CANDIES_MATH: จะมีลูกอม🍇องุ่นทั้งหมด 4 × 8 = 32 เม็ด
+I (16778) CANDIES_MATH: รวมลูกอม🍓🍊🍇ทั้งหมด 24 + 16 + 32 = 72 เม็ด
+I (16778) CANDIES_MATH: ✅ คำตอบ:
+I (16778) CANDIES_MATH:    มีลูกอมทั้งหมด 72 เม็ด
+I (16778) CANDIES_MATH: 
+I (16778) CANDIES_MATH: 🎨 ภาพประกอบ:
+I (16778) CANDIES_MATH:    ถุง🍓ที่ 1: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍓ที่ 2: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍓ที่ 3: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍊ที่ 4: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍊ที่ 5: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍇ที่ 6: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    ถุง🍇ที่ 7: 🍬🍬🍬🍬🍬🍬🍬🍬 (8 เม็ด)
+I (16778) CANDIES_MATH:    รวม:     72 เม็ด
+I (16778) CANDIES_MATH: 
+I (16778) CANDIES_MATH: 📊 ตารางสูตรคูณของ 8:
+I (16778) CANDIES_MATH:    1 x 8 = 8
+I (16778) CANDIES_MATH:    2 x 8 = 16
+I (16778) CANDIES_MATH:    3 x 8 = 24
+I (16778) CANDIES_MATH:    4 x 8 = 32
+I (16778) CANDIES_MATH:    5 x 8 = 40
+I (16778) CANDIES_MATH:    6 x 8 = 48
+I (16778) CANDIES_MATH:    7 x 8 = 56
+I (16788) CANDIES_MATH:    8 x 8 = 64
+I (16788) CANDIES_MATH:    9 x 8 = 72
+I (16788) CANDIES_MATH:    10 x 8 = 80
+I (16788) CANDIES_MATH: 
+I (16788) CANDIES_MATH: 👥 แจกให้เพื่อน 12 คน:
+I (16788) CANDIES_MATH:    คนละ 6 เม็ด
+I (16788) CANDIES_MATH:    เหลือ 0 เม็ด
+I (16788) CANDIES_MATH: 
+I (16788) CANDIES_MATH: 🧮 วิธีคิดแจกลูกอม:
+I (16788) CANDIES_MATH:    ลูกอมทั้งหมด: 72 เม็ด
+I (16788) CANDIES_MATH:    จำนวนเพื่อน: 12 คน
+I (16788) CANDIES_MATH:    ลูกอมที่แต่ละคนจะได้รับ = ลูกอมทั้งหมด ÷ จำนวนเพื่อน
+I (16788) CANDIES_MATH:    = 72 ÷ 12
+I (16788) CANDIES_MATH:    ลูกอมที่แต่ละคนได้รับ: 6 เม็ด
+I (16788) CANDIES_MATH:    หารเหลือเศษ = 0
+I (16788) CANDIES_MATH: 
+I (16788) CANDIES_MATH: 💡 ตัวอย่างเพิ่มเติม:
+I (16788) CANDIES_MATH:    ถ้ามีถุงลูกอม 3 ถุง ถุงละ 8 เม็ด
+I (16788) CANDIES_MATH:    จะได้ลูกอม 3 × 8 = 24 เม็ด
+I (16788) CANDIES_MATH:
+I (16788) CANDIES_MATH:    ถ้ามีถุงลูกอม 7 ถุง ถุงละ 4 เม็ด
+I (16788) CANDIES_MATH:    จะได้ลูกอม 7 × 4 = 28 เม็ด
+I (16788) CANDIES_MATH: 
+I (16788) CANDIES_MATH: 🔄 เปรียบเทียบการดำเนินการ:
+I (16788) CANDIES_MATH:    การบวก (+): เพิ่มจำนวน (เช่น ไข่ 4 + 2 = 6)
+I (16788) CANDIES_MATH:    การลบ (-): ลดจำนวน (เช่น ของเล่น 8 - 3 = 5)
+I (16788) CANDIES_MATH:    การคูณ (×): บวกซ้ำๆ (เช่น ลูกอม 5 × 6 = 30)
+I (16788) CANDIES_MATH: 
+I (16788) CANDIES_MATH: 🎓 แนวคิดขั้นสูง:
+I (16788) CANDIES_MATH:    1. การคูณมีคุณสมบัติการสับเปลี่ยน:
+I (16788) CANDIES_MATH:       9 × 8 = 8 × 9 = 72
+I (16788) CANDIES_MATH:    2. การคูณด้วย 0 จะได้ 0 เสมอ:
+I (16788) CANDIES_MATH:       9 × 0 = 0 (ไม่มีถุงลูกอม)
+I (16788) CANDIES_MATH:    3. การคูณด้วย 1 จะได้ตัวเลขเดิม:
+I (16788) CANDIES_MATH:       8 × 1 = 8 (มีถุงเดียว)
+I (16788) CANDIES_MATH: 
+I (16798) CANDIES_MATH: 📚 สิ่งที่เรียนรู้:
+I (16798) CANDIES_MATH:    1. การคูณเลข (Multiplication): a × b = c
+I (16798) CANDIES_MATH:    2. การใช้ for loop สำหรับการทำซ้ำ
+I (16798) CANDIES_MATH:    3. ความสัมพันธ์ระหว่างการคูณและการบวกซ้ำๆ
+I (16798) CANDIES_MATH:    4. คุณสมบัติพิเศษของการคูณ
+I (16798) CANDIES_MATH:    5. การแสดงผลแบบตาราง
+I (16798) CANDIES_MATH:
+I (16798) CANDIES_MATH: 🎉 จบโปรแกรมนับลูกอมในถุง!
+I (16798) CANDIES_MATH: 📖 อ่านต่อในโปรเจคถัดไป: 04_division_cookies
+I (18798) main_task: Returned from app_main()
 ```
